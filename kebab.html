@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <link rel="stylesheet" href="kebab.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fastfood</title>
+</head>
+<body>
+ 
+  <!--HEADER-->
+  <header>
+    <div class="full-height-header-background">
+      <div class="max-width-header">
+        <div class="header-all">
+          <div class="logo-section">
+            <img src="pic/Logo.svg" alt="">
+          </div>
+          <div class="nav-section">
+            <ul>
+              <li><a a href="#menu">Menu</a></li>
+              <li><a>Novinky</a></li>
+              <li><a>Pobočky</a></li>
+              <li><a>O Nás</a></li>
+              <li><a>Kontakt</a></li>
+              <li><a>Rozvoz</a></li>
+              <li><img src="pic/IconRozvoz.svg" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+      <div class="welcome-title">
+        <h1><span style="color: #FF8C00;">Fastfood</span> s úsměvem:<br>
+          Rychlé, <span style="color: #FF8C00;">chutné</span>,<br>
+          <span style="color: #FF8C00;">vždy</span> na dosah!</h1>
+        <div class="buttons">
+          <button class="button">Objednávka</button>
+          <button class="button">Rezervace</button>
+        </div>
+      </div> 
+    </div>
+  </header>
+  
+  
+  <!--MAIN-->
+  <main>
+    <div class="full-height-main-background">
+      <div class="main-all" id="menu">
+        <h2>Ochutnejte z naší nabídky</h2>
+        <h3>Burgery</h3>
+        <div class="burgers-offer">
+
+          <div class="burger-item">
+            <img class="burger-pic" src="pic/amirali-mirhashemian-88YAXjnpvrM-unsplash.jpg" alt="">
+            <div class="burger-text">
+              <div class="burger-name">
+                <h3>Double burger</h3>
+                <div class="footer-item">
+                  <div class="price">
+                    <h3>269&nbsp;KČ</h3>
+                  </div>
+                  <div class="price-add">
+                    <button class="button-add">Přidat</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="burger-item">
+            <img class="burger-pic" src="pic/amirali-mirhashemian-9hIJ4ZLMnZA-unsplash.jpg" alt="">
+            <div class="burger-text">
+              <div class="burger-name">
+                <h3>Double burger</h3>
+                <div class="footer-item">
+                  <div class="price">
+                    <h3>279&nbsp;KČ</h3>
+                  </div>
+                  <div class="price-add">
+                    <button class="button-add">Přidat</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="burger-item">
+            <img class="burger-pic" src="pic/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" alt="">
+            <div class="burger-text">
+              <div class="burger-name">
+                <h3>Double burger</h3>
+                <div class="footer-item">
+                  <div class="price">
+                    <h3>289&nbsp;KČ</h3>
+                  </div>
+                  <div class="price-add">
+                    <button class="button-add">Přidat</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="burger-item">
+            <img class="burger-pic" src="pic/amirali-mirhashemian-pjGnlZTtQ-Y-unsplash.jpg" alt="">
+            <div class="burger-text">
+              <div class="burger-name">
+                <h3>Double burger</h3>
+                <div class="footer-item">
+                  <div class="price">
+                    <h3>279&nbsp;KČ</h3>
+                  </div>
+                  <div class="price-add">
+                    <button class="button-add">Přidat</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="burger-item">
+            <img class="burger-pic" src="pic/amirali-mirhashemian-IB__k0z3XtQ-unsplash.jpg" alt="">
+            <div class="burger-text">
+              <div class="burger-name">
+                <h3>Double burger</h3>
+                <div class="footer-item">
+                  <div class="price">
+                    <h3>289&nbsp;KČ</h3>
+                  </div>
+                  <div class="price-add">
+                    <button class="button-add">Přidat</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="burger-item">
+            <img class="burger-pic" src="pic/amirali-mirhashemian-b6bYaFOPfmI-unsplash.jpg" alt="">
+            <div class="burger-text">
+              <div class="burger-name">
+                <h3>Double burger</h3>
+                <div class="footer-item">
+                  <div class="price">
+                    <h3>264&nbsp;KČ</h3>
+                  </div>
+                  <div class="price-add">
+                    <button class="button-add">Přidat</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+      
+
+    <script> 
+      document.querySelector('a[href="#menu"]').addEventListener('click', function (event) {
+        event.preventDefault()
+        document.querySelector('#menu').scrollIntoView({
+        behavior: 'smooth'
+        })
+      })
+    </script>
+  </main>
+  <footer>
+    Copyright &copy; 2024 Fastfood.
+  </footer>
+</body>
+</html>
